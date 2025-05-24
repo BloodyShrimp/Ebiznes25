@@ -24,7 +24,7 @@ fun main() {
         try {
             val response = client.post(webhookUrl) {
                 contentType(ContentType.Application.Json)
-                setBody(DiscordMessage("Wiadomość wysłana z aplikacji Ktor! 🚀"))
+                setBody(DiscordMessage("Ebiznes zadanie test"))
             }
 
             println("Odpowiedź: ${response.status}")
