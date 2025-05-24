@@ -12,18 +12,22 @@
 
 :x: 5.0 dodać konfigurację docker-compose
 
+Kod: https://github.com/BloodyShrimp/Ebiznes25/tree/main/zadanie-1
+
 
 **Zadanie 2:** Scala
 
 :white_check_mark: 3.0 Należy stworzyć kontroler do Produktów
 
-:x: 3.5 Do kontrolera należy stworzyć endpointy zgodnie z CRUD - dane pobierane z listy
+:white_check_mark: 3.5 Do kontrolera należy stworzyć endpointy zgodnie z CRUD - dane pobierane z listy
 
 :x: 4.0 Należy stworzyć kontrolery do Kategorii oraz Koszyka + endpointy zgodnie z CRUD
 
 :x: 4.5 Należy aplikację uruchomić na dockerze (stworzyć obraz) oraz dodać skrypt uruchamiający aplikację via ngrok (nie podawać tokena ngroka w gotowym rozwiązaniu)
 
 :x: 5.0 Należy dodać konfigurację CORS dla dwóch hostów dla metod CRUD
+
+Kod: https://github.com/BloodyShrimp/Ebiznes25/tree/main/zadanie-2
 
 
 **Zadanie 3:** Kotlin
@@ -37,6 +41,8 @@
 :x: 4.5 Zwróci listę produktów wg żądanej kategorii
 
 :x: 5.0 Aplikacja obsłuży dodatkowo jedną z platform: Slack, Messenger, Webex
+
+Kod: https://github.com/BloodyShrimp/Ebiznes25/tree/main/zadanie-3
 
 
 **Zadanie 4:** Go
@@ -54,6 +60,8 @@ listy)
 a produktem
 
 :x: 5.0 pogrupować zapytania w gorm’owe scope'y
+
+Kod: https://github.com/BloodyShrimp/Ebiznes25/tree/main/zadanie-4
 
 
 **Zadanie 5:** Frontend
@@ -73,6 +81,8 @@ kliencką na dockerze via docker-compose
 
 :x: 5.0 Należy wykorzystać axios’a oraz dodać nagłówki pod CORS
 
+Kod: https://github.com/BloodyShrimp/Ebiznes25/tree/main/zadanie-5
+
 
 **Zadanie 6:** Testy
 
@@ -89,6 +99,8 @@ projektu z minimum 50 asercjami
 minimum jednym scenariuszem negatywnym per endpoint
 
 :x: 5.0 Należy uruchomić testy funkcjonalne na Browserstacku
+
+Kod: https://github.com/BloodyShrimp/Ebiznes25/tree/main/zadanie-6
 
 
 **Zadanie 7:** Sonar
@@ -114,3 +126,5 @@ w kodzie w Sonarze (kod aplikacji serwerowej)
 
 :x: 5.0 Należy wyeliminować wszystkie błędy oraz zapaszki w kodzie
 aplikacji klienckiej
+
+Kod: https://github.com/BloodyShrimp/Ebiznes25/tree/main/zadanie-7
