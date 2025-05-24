@@ -50,7 +50,7 @@ Kod: https://github.com/BloodyShrimp/Ebiznes25/tree/main/zadanie-3
 :white_check_mark: 3.0 Należy stworzyć aplikację we frameworki echo w j. Go, która będzie
 miała kontroler Produktów zgodny z CRUD
 
-:x: 3.5 Należy stworzyć model Produktów wykorzystując gorm oraz
+:white_check_mark: 3.5 Należy stworzyć model Produktów wykorzystując gorm oraz
 wykorzystać model do obsługi produktów (CRUD) w kontrolerze (zamiast
 listy)
 
