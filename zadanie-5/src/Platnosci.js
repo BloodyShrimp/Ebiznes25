@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css';
 
 const Platnosci = () => {
   const [dane, setDane] = useState({
@@ -16,11 +17,9 @@ const Platnosci = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch('http://localhost:8080/platnosci', { // zmień na adres swojego backendu
+    fetch('http://localhost:8080/platnosci', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(dane)
     })
       .then(response => {
