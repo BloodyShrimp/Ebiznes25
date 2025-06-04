@@ -38,7 +38,8 @@ const Platnosci = () => {
       <h2>Formularz Płatności</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Kwota:</label>
+          <label>
+            Kwota:
           <input
             type="number"
             name="kwota"
@@ -46,9 +47,10 @@ const Platnosci = () => {
             onChange={handleChange}
             required
           />
+          </label>
         </div>
         <div>
-          <label>ID Produktu:</label>
+          <label>ID Produktu:
           <input
             type="text"
             name="produktId"
@@ -56,6 +58,7 @@ const Platnosci = () => {
             onChange={handleChange}
             required
           />
+          </label>
         </div>
         <button type="submit">Wyślij płatność</button>
       </form>
