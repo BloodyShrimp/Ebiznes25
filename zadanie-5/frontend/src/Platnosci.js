@@ -40,24 +40,25 @@ const Platnosci = () => {
         <div>
           <label>
             Kwota:
-          <input
-            type="number"
-            name="kwota"
-            value={dane.kwota}
-            onChange={handleChange}
-            required
-          />
+            <input
+              type="number"
+              name="kwota"
+              value={dane.kwota}
+              onChange={handleChange}
+              required
+            />
           </label>
         </div>
         <div>
-          <label>ID Produktu:
-          <input
-            type="text"
-            name="produktId"
-            value={dane.produktId}
-            onChange={handleChange}
-            required
-          />
+          <label>
+            ID Produktu:
+            <input
+              type="text"
+              name="produktId"
+              value={dane.produktId}
+              onChange={handleChange}
+              required
+            />
           </label>
         </div>
         <button type="submit">Wyślij płatność</button>
