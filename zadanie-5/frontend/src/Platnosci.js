@@ -39,7 +39,7 @@ const Platnosci = () => {
       <form onSubmit={handleSubmit}>
         <div>
           <label>
-            Kwota:
+            <span>Kwota:</span>
             <input
               type="number"
               name="kwota"
@@ -51,7 +51,7 @@ const Platnosci = () => {
         </div>
         <div>
           <label>
-            ID Produktu:
+            <span>ID Produktu:</span>
             <input
               type="text"
               name="produktId"
