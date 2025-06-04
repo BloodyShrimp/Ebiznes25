@@ -30,12 +30,13 @@ dependencies {
     // This dependency is used by the application.
     implementation(libs.guava)
 
-    implementation("io.ktor:ktor-server-core-jvm:2.3.0")
-    implementation("io.ktor:ktor-server-netty-jvm:2.3.0")
-    implementation("io.ktor:ktor-server-content-negotiation:2.3.0")
-    implementation("io.ktor:ktor-serialization-jackson:2.3.0")
-    implementation("io.ktor:ktor-server-cors:2.3.0")
-    implementation("ch.qos.logback:logback-classic:1.4.11")
+    implementation(libs.guava)
+    implementation(libs.ktor.core)
+    implementation(libs.ktor.netty)
+    implementation(libs.ktor.content.negotiation)
+    implementation(libs.ktor.jackson)
+    implementation(libs.ktor.cors)
+    implementation(libs.logback)
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
